@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using Xamarin.Forms.Platform.Android;
 using Naylah.SampleApp;
+using Naylah.SampleApp.Droid;
 using Xamarin.Forms;
 
 
@@ -16,7 +17,7 @@ namespace Naylah.SampleApp.Droid
     [Activity(
         Label = "Naylah Sample App", 
         Icon = "@drawable/ic_launcher", 
-        MainLauncher = true, 
+        MainLauncher = false, 
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)
         ]
     public class MainActivity : FormsAppCompatActivity
