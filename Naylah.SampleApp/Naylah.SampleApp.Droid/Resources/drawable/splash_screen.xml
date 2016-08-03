@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<!-- Put this on drawable folder...-->
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <color android:color="@color/primaryColor"/>
+    <!--@color/primary-->
+  </item>
+  <item>
+    <bitmap
+        android:src="@drawable/ic_launcher"
+        android:tileMode="disabled"
+        android:adjustViewBounds="true"
+        android:gravity="center"/>
+  </item>
+</layer-list>
